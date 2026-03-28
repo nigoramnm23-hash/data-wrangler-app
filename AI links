@@ -1,0 +1,51 @@
+# AI Usage LINKS
+
+## Overview
+
+Artificial Intelligence tools (ChatGPT) were used throughout the development of this project to support coding, debugging, and design decisions.
+
+The use of AI was aligned with the coursework requirements and all outputs were manually reviewed and validated.
+
+---
+
+## How AI Was Used
+
+AI assistance was used for the following tasks:
+
+- Generating the initial structure of the Streamlit application
+- Writing and refining data cleaning functions (missing values, duplicates, outliers)
+- Implementing transformation logic (scaling, encoding, feature creation)
+- Designing the user interface (layout, styling, user flow)
+- Debugging errors during development
+- Supporting deployment on Streamlit Cloud
+- Improving documentation (README and report structure)
+
+---
+
+## Verification Process
+
+All AI-generated outputs were:
+
+- Carefully reviewed and tested manually
+- Modified where necessary to ensure correctness
+- Validated through execution in the Streamlit application
+
+No AI output was used without verification.
+
+---
+
+## Prompts and Conversations
+
+Below are links to the AI conversations used during development:
+
+- Chat 1: https://chatgpt.com/share/69c80710-c39c-8385-8ddf-43ddf6916d9a
+- Chat 2: https://chatgpt.com/c/69b81ec6-52a0-832f-8476-4c747ef1a2c8
+
+
+(Additional chats can be added if needed)
+
+---
+
+## Notes
+
+The final application is the result of iterative development, combining AI assistance with manual implementation and validation.
