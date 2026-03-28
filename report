@@ -1,0 +1,49 @@
+Introduction
+
+This project focuses on developing a web-based application for data wrangling and visualization using Streamlit. In today’s data-driven world, working with data efficiently is very important. However, many existing tools are complex and require strong programming knowledge.
+
+The main goal of this project was to create a simple, interactive, and user-friendly tool that allows users to upload datasets, clean and transform data, and generate visual insights. The application acts as a small data preparation studio where users can perform common data processing tasks without writing complex code.
+
+Another important objective was to ensure reproducibility. The application keeps a transformation log so that all data operations can be tracked and understood.
+
+Development Process
+
+The application was developed using Python and the Streamlit framework. We used Pandas and NumPy for data processing and Matplotlib for visualization.
+
+The development process followed a structured and iterative approach. First, we implemented the data upload functionality and dataset overview. This included displaying basic information such as number of rows and columns, data types, missing values, and duplicates.
+
+Next, we developed the data cleaning module. This included handling missing values using different methods (mean, median, mode, and constant values) and removing duplicate records.
+
+After that, we implemented transformation features. These included converting data types, scaling numeric values (Min-Max and Z-score), and creating new features using formulas. We also added tools for working with categorical data.
+
+Then, we built the visualization module. Users can select chart types, choose columns, and explore the data using different visual representations.
+
+Finally, we implemented export functionality, allowing users to download the cleaned dataset and a transformation report. The application was then deployed using Streamlit Cloud, making it accessible online.
+
+Challenges
+
+During this project, we faced several important challenges.
+
+One of the main challenges was working with Streamlit. Managing session state was difficult, especially when applying multiple transformations step by step. Sometimes the dataset was not updating correctly or was resetting, so we had to carefully control how data is stored and reused in the application.
+
+Another challenge was designing the user interface. We wanted to keep the interface simple and intuitive, but at the same time include many features. Finding the right balance between usability and functionality required several improvements and adjustments.
+
+We also faced challenges with handling different data types. Some datasets contained mixed or incorrect formats, which caused errors during processing. To solve this, we added validation checks and error handling to make the application more stable.
+
+In addition, performance was a challenge when working with larger datasets. We used caching and efficient data handling techniques to improve speed and responsiveness.
+
+Finally, deployment was not straightforward. We needed to ensure correct file structure, proper dependency management, and compatibility with the Streamlit Cloud environment.
+
+Learning Outcomes
+
+Through this project, we gained valuable knowledge and practical experience.
+
+We improved our understanding of data wrangling techniques, including handling missing values, cleaning data, detecting outliers, and transforming datasets.
+
+We also developed skills in data visualization. We learned how to choose appropriate chart types and present data in a clear and meaningful way.
+
+From a technical perspective, we strengthened our skills in Python and libraries such as Pandas, NumPy, and Matplotlib. We also learned how to build interactive web applications using Streamlit, including UI design and session management.
+
+Another important outcome was learning how to deploy an application. We gained experience in preparing a project for deployment and making it accessible online.
+
+Overall, this project helped us understand the full workflow of data analysis — from raw data to cleaned dataset, visualization, and final output.
