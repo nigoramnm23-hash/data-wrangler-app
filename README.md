@@ -1,69 +1,58 @@
 # 🌿 AI-Assisted Data Wrangler & Visualizer
 
-A modern web application for data preparation, transformation, and visualization built with Streamlit.
+This project is a Streamlit-based web application for data wrangling and visualization.
 
-## ✨ Overview
-
-This tool provides an intuitive interface for working with datasets, allowing users to clean, transform, validate, and visualize data without writing complex code.
-
-Designed as a lightweight alternative to tools like Power BI, Excel Power Query, and Python notebooks.
+It allows users to upload datasets, clean and transform data, create visualizations, and export results.
 
 ---
 
 ## 🚀 Features
 
-### 📥 Data Upload
-- Supports CSV, Excel (XLSX), and JSON
-- Instant preview and dataset overview
-
-### 🧹 Data Cleaning
-- Handle missing values (mean, median, mode, constant)
-- Remove duplicates
-- Detect and treat outliers
-- Clean categorical inconsistencies
-
-### 🔄 Transformations
-- Type conversion (numeric, datetime, category)
-- Feature engineering (custom formulas)
-- Scaling (Min-Max, Z-score)
-- Binning and encoding
-
-### ✅ Validation
-- Range checks for numeric fields
-- Allowed values for categorical data
-- Non-null constraints
-
-### 📊 Visualization
-- Histogram, Boxplot, Scatter, Line, Bar charts
-- Correlation heatmap
-- Interactive filtering
-
-### 🧠 Insights
-- Automatic dataset summary
-- Basic statistical insights
-- Correlation detection
-
-### 📤 Export
-- Clean dataset (CSV / Excel)
-- Transformation log (JSON)
-- Validation results
+- Upload CSV, Excel, and JSON files  
+- Handle missing values and duplicates  
+- Transform and scale data  
+- Validate datasets  
+- Build visualizations  
+- Export cleaned data and transformation report  
 
 ---
 
-## 🖥️ Live Demo
+## 🖥️ Live App
 
-👉 https://data-wrangler-app-65d4tphjcywuuhhlmkhdv7.streamlit.app
+https://data-wrangler-app-65d4tphjcywuuhhlmkhdv7.streamlit.app
 
 ---
 
 ## ⚙️ Tech Stack
 
-- Python
-- Streamlit
-- Pandas
-- NumPy
-- Matplotlib
+- Python  
+- Streamlit  
+- Pandas  
+- NumPy  
+- Matplotlib  
 
 ---
 
 ## 📂 Project Structure
+data-wrangler-app/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+├── AI_USAGE.md
+├── transformation_recipe.json
+├── dataset1.csv
+├── dataset2.csv
+
+## ▶️ Run Locally
+
+
+pip install -r requirements.txt
+streamlit run app.py
+
+
+---
+
+## 📌 Note
+
+A detailed explanation of the development process, challenges, and learning outcomes is provided in the report document.
